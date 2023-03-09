@@ -13,6 +13,7 @@ body {
   color: #fff;
   position: relative;
   background: transparent;
+ 
 }
 
 
@@ -29,10 +30,15 @@ body::before {
   z-index: -1;
 }
 
-p {
-  font-style: "monaco", monospace;
-  font-size: 56;
+.aboutMe {
+  font-family: "Monaco", monospace;
+  font-size: 34px;
+  color: white;
+  line-height: 1;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
 }
+
 
 
 @media (min-width: 1024px) {
@@ -364,7 +370,7 @@ section.section-show {
 
 section .container {
   background: #1c1c1c;
-  padding: 30px;
+  padding: 35px;
   border: 1px solid;
 
 }
@@ -414,24 +420,28 @@ section .container {
 # About
 --------------------------------------------------------------*/
 .about-me .content h3 {
-  font-weight: 700;
-  font-size: 46px;
+  font-weight: 100;
+  font-size: 56px;
   color: #33f3a3;
 }
 
 .about-me .content ul {
   list-style: none;
-  padding: 0;
+  padding: 1px;
+  font-size: 28px;
+
 }
 
 .about-me .content ul li {
-  margin-bottom: 20px;
-  display: flex;
+  margin-bottom: 10px;
+  display: block;
   align-items: center;
 }
 
 .about-me .content ul strong {
   margin-right: 10px;
+  letter-spacing: 2px;
+  
 }
 
 .about-me .content ul i {
@@ -439,6 +449,7 @@ section .container {
   margin-right: 10px;
   color: white;
   line-height: 0;
+  
 }
 
 .about-me .content p:last-child {
@@ -465,7 +476,7 @@ section .container {
   top: -25px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 24px;
+  font-size: 14px;
   background: rgba(255, 255, 255, 0.1);
   padding: 12px;
   color: #18d26e;
@@ -491,7 +502,7 @@ section .container {
 # Skills
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 50px;
+  height: 80px;
   display: block;
   background: none;
   border-radius: 0;
@@ -505,6 +516,8 @@ section .container {
   font-weight: 600;
   font-family: "Monaco", sans-serif;
   color: white;
+  font-size: 25px;
+
 }
 
 .skills .progress .skill .val {
@@ -513,7 +526,7 @@ section .container {
 }
 
 .skills .progress-bar-wrap {
-  background: rgba(28, 28, 28, 255);
+  background: white;
 }
 
 .skills .progress-bar {
@@ -643,31 +656,52 @@ section .container {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid rgba(255, 255, 255, 0.2);
+  border-left: 2px solid white;
   position: relative;
 }
 
 .resume .resume-item h4 {
-  line-height: 18px;
-  font-size: 28px;
+  line-height: 28px;
+  font-size: 34px;
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Monaco", sans-serif;
-  color: #18d26e;
+  color: #15bb62;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 30px;
-  background: rgba(255, 255, 255, 0.15);
+  background: white;
   padding: 5px 15px;
   display: inline-block;
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 10px;
+  color: black;
+  border: 1px solid #15bb62;
 }
 
 .resume .resume-item ul {
   padding-left: 20px;
+}
+
+.resume .resume-item p {
+  line-height: 28px;
+  font-size: 29px;
+  font-family: "Monaco", sans-serif;
+  color: white;
+  margin-bottom: 10px;
+  
+}
+
+em {
+  font-size:30px;
+  line-height: 28px;
+  font-family: "Monaco", sans-serif;
+  color: white;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .resume .resume-item ul li {
@@ -681,14 +715,15 @@ section .container {
 .resume .resume-item::before {
   content: "";
   position: absolute;
-  width: 16px;
-  height: 16px;
+  width: 26px;
+  height: 26px;
   border-radius: 50px;
-  left: -9px;
+  left: -15px;
   top: 0;
   background: #18d26e;
-  border: 2px solid #18d26e;
+  border: 2px solid white;
 }
+
 
 /*--------------------------------------------------------------
 # Services
@@ -876,7 +911,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
-  font-size: 30px;
+  font-size: 40px;
   color: #fff;
   font-weight: 600;
 }
@@ -935,7 +970,7 @@ section .container {
   padding-top: 40px;
   background: rgba(0, 0, 0, 0.8);
   position: fixed;
-  ;
+
   left: 0;
   right: 0;
   top: 0;
@@ -949,7 +984,7 @@ section .container {
 }
 
 .portfolio-details .portfolio-title {
-  font-size: 36px;
+  font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
