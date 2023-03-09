@@ -13,7 +13,7 @@ body {
   color: #fff;
   position: relative;
   background: transparent;
- 
+
 }
 
 
@@ -416,6 +416,16 @@ section .container {
   color: #fff;
 }
 
+/*****************************************************************
+footer
+----------------------------*/
+footer {
+  font-weight: 900;
+  font-size: 36px;
+  color: #33f3a3;
+  letter-spacing: 2px;
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -441,7 +451,7 @@ section .container {
 .about-me .content ul strong {
   margin-right: 10px;
   letter-spacing: 2px;
-  
+
 }
 
 .about-me .content ul i {
@@ -449,7 +459,7 @@ section .container {
   margin-right: 10px;
   color: white;
   line-height: 0;
-  
+
 }
 
 .about-me .content p:last-child {
@@ -692,11 +702,11 @@ section .container {
   color: white;
   margin-bottom: 10px;
   letter-spacing: 2px;
-  
+
 }
 
 em {
-  font-size:30px;
+  font-size: 30px;
   line-height: 28px;
   font-family: "Monaco", sans-serif;
   color: white;
