@@ -691,6 +691,7 @@ section .container {
   font-family: "Monaco", sans-serif;
   color: white;
   margin-bottom: 10px;
+  letter-spacing: 2px;
   
 }
 
